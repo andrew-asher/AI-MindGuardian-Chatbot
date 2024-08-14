@@ -1,7 +1,11 @@
 # AI-MindGuardian-Chatbot
+
 Prototype chatbot for mental health counseling using Llama-3.1-70b, Pinecone VectorDB, and Gradio, with embedded Psych8k data for context-aware conversations. Future improvements include code cleanup and LangGraph integration.
 
-
+![MindGuardian Logo](images/MG 1.png)
+![Chat Interface](images/MG 2.png)
+![Chat Interface](images/MG 3.png)
+![Chat Interface](images/MG 4.png)
 
 MindGuardian is a mental health counseling chatbot prototype developed using state-of-the-art AI models and technologies. This repository contains the code for setting up and running the chatbot, including the integration of Llama-3.1-70b-versatile, Pinecone vector database, and various other tools for a seamless conversational experience.
 
@@ -12,6 +16,8 @@ MindGuardian is a mental health counseling chatbot prototype developed using sta
 - **Vector Database:** Pinecone is used to store and retrieve embedded data from the Psych8k dataset, enabling contextually relevant responses.
 - **Embedding Model:** Nomic-ai/nomic-embed-text-v1.5 is used to embed the Psych8k dataset for efficient data retrieval.
 - **User Interface:** Gradio is used to create a user-friendly interface for interacting with the chatbot.
+
+![Chat Interface](images/image2.png)
 
 ## Installation
 
